@@ -1,6 +1,42 @@
-#a{
-    background-color: red;
-    color: white;
-    padding: 2em;
-    border-style: none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+/* first declare global classes so that precedence of the file is mainained */
+a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+    box-shadow: 0px -1px 11px 3px rgb(0 0 0 / 20%);
+    /* em is used so that space your elements out relative to the size of text  */
+    padding: 1em; 
+}
+
+nav ul{
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    
+}
+
+
+#logo {
+    text-transform: capitalize;
+    width: 20%;
+    margin-right: auto;
+}
+
